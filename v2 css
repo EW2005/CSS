@@ -1,0 +1,246 @@
+body {
+    background-image: url( images/background.jpeg)   
+          
+}
+
+#wrapper2{
+background:lightgreen;
+}
+
+#wrapper {
+background:white;
+width: 80%;
+margin: auto;
+padding: 30px;
+box-shadow:5px 10px 8px #000000 ;
+}
+
+.box {
+    border: solid 1xp #000;
+padding: 20px;
+    background-color: white;   
+}
+
+h1 {
+    color :white;
+    font-size: 300%;
+}
+p{color :white; 
+font-family: monospace;
+    font-size: 200%;
+}
+
+#back-button{    
+color: aliceblue;
+}
+
+#logo {
+    width: 290px;
+    display: block;
+    margin: down;
+}
+
+
+h2{
+ color: darkgreen;
+font-family: monospace;
+ text-align: left;
+    font-size: 250%;
+}
+
+h3{
+color: black;
+background: lightgreen; 
+font-size: 290%;
+}
+
+p1{ font-size: 125%;
+    
+}
+
+h4 {
+  color: black;
+background: lightgreen; 
+font-size: 250%;       
+}
+
+.byline {
+  font-style:italic;
+  
+  font-weight:bold;
+  
+  color:red;
+}
+h5{
+  color: black;
+background: lightgreen; 
+font-size: 250%;      
+}
+
+
+.intro{
+  font-size: 120%;
+  
+  font-family: roboto;
+  
+  color: #648335;
+}
+
+#background-image{
+  width: 100%;
+display: Block;
+  margin: auto;
+  
+}
+
+
+header {
+  
+  background-color: blue;
+  margin: -30px;
+  color: white;
+  padding: 30px;
+  font-size: 150px;
+}
+
+
+
+nav {
+  background-color: lightgreen;
+  padding: 1px;
+    text-align: center;
+  margin-top: 30px;
+  margin-left: -30px;
+  margin-right: -30px;
+  text-transform: uppercase;
+  font-family: helvetica;
+  font-weight: bold;
+}
+nav ul li {
+  display: inline-block;
+    padding: 10px;
+  margin:0 1%;
+}
+
+nav ul {
+  width: 100%;
+  margin: auto;
+}
+nav ul li a {
+  color:green;
+  text-decoration: none;
+  display:block;
+  padding: 10px;
+}
+li a:hover {
+  text-shadow: 2px 2px 5px white
+}
+
+#main-img {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+#contact-img{
+   width: 70%;
+    display: block;
+    margin: auto;
+    margin-right: auto
+}
+p{
+   color:green;
+    font-size: 120%;
+}
+p2{
+  color:green;
+    font-size: 150%;  
+    
+}
+
+p3{
+ color:green;
+    font-size: 150%;    
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+html{
+scroll-behavior: smooth;    
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+<?php
+
+
+if($_POST["message"]) {
+
+
+mail("ew46@mahurangi.school.nz", "Here is the subject line",
+
+
+$_POST["insert your message here"]. "From: an@email.address");
+
+
+}
+
+
+?>
+
+#wrapper2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+   grid-template-rows: auto;
+    grid-template-areas: 
+        "logo banner banner"
+        "nav nav nav"
+        "footer footer footer";
+ grid-gap: 4px;
+}
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
