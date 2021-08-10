@@ -1,2 +1,2 @@
-# v1-CSS
+# CSS
 my first version for css
